@@ -4,5 +4,5 @@ export async function readObjectLoose({ fs, gitdir, oid }) {
   if (!file) {
     return null
   }
-  return { object: file, format: 'deflated', source }
+  return { object: file, format: 'wrapped', source }
 }
