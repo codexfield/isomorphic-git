@@ -7,6 +7,9 @@
   "main": "./index.cjs",
   "module": "./index.js",
   "unpkg": "./index.umd.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "isogit": "./cli.cjs"
   },
